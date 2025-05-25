@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a71f6e8e-b136-4a2e-9b50-c1ef563f24d6">
+  <name>Диплом1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диплом1 С</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c4def654-81ca-446a-927e-562e950cb831"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9808adc1-e3c8-4a75-9ae3-7913855a0b8c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a8989a4c-455f-4a00-8b1a-1f40b392091b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="14038a8a-bdee-4120-b2b9-b5c7a286bf29"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b69711eb-6cb5-48a0-909a-e7cc0fa5e977"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="99f04a56-b87e-40de-a7df-e8b086754dec"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="08f34a23-3457-48d9-add6-e4921387da98"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="26555707-f7b9-4620-84a7-972706f4e2ee">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
+</mdclass:Configuration>
