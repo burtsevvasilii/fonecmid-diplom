@@ -207,7 +207,6 @@
   <items xsi:type="form:FormField">
     <name>ВКМ_НачалоДействияДоговора</name>
     <id>16</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -247,7 +246,6 @@
   <items xsi:type="form:FormField">
     <name>ВКМ_КонецДействияДоговора</name>
     <id>19</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -287,7 +285,6 @@
   <items xsi:type="form:FormField">
     <name>ВКМ_СуммаАбонентскойПлаты</name>
     <id>22</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -327,7 +324,6 @@
   <items xsi:type="form:FormField">
     <name>ВКМ_СтоимостьЧасаРаботы</name>
     <id>25</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
