@@ -13,5 +13,6 @@
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенийВТелеграмм</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
