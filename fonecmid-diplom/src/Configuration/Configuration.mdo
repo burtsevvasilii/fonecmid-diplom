@@ -1393,4 +1393,7 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачислеия</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ВКМ_Удержания</chartsOfCalculationTypes>
 </mdclass:Configuration>

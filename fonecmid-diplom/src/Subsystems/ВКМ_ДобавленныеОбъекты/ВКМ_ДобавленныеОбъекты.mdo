@@ -18,5 +18,7 @@
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</content>
+  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачислеия</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
