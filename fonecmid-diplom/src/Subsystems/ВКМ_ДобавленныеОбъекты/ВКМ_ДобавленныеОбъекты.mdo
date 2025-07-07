@@ -20,5 +20,6 @@
   <content>Role.ВКМ_РаботаСОбработкойМассовоеСозданиеАктов</content>
   <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
   <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачислеия</content>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
