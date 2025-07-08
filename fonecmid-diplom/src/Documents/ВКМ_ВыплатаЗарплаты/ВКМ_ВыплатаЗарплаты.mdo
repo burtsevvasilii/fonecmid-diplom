@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcad1d8d-dc54-4396-a9ae-e8f6c1dfa59c">
+  <producedTypes>
+    <objectType typeId="c9b5516d-bc9d-448b-83bc-9a44a2cac1b9" valueTypeId="9a42e85c-e49a-4a2e-95c2-aad0303ac829"/>
+    <refType typeId="3063678e-0776-4a5f-8dba-febe2080381f" valueTypeId="8fb3582a-1a2d-4be1-85e6-db6e44b34f04"/>
+    <selectionType typeId="59d92737-6d18-42af-9886-5ee0638a3679" valueTypeId="63cb84a8-22b6-4845-858c-304dc5e68fbe"/>
+    <listType typeId="3e9c8eb2-5e3d-40cb-bc86-6552b69cfa0a" valueTypeId="89991b12-b20a-422f-afcb-39f9e457ca11"/>
+    <managerType typeId="970311a0-e22d-49ab-9644-400d3a327c1c" valueTypeId="4ab0a62c-b3c1-4f2d-ab0e-59d2cef097ea"/>
+  </producedTypes>
+  <name>ВКМ_ВыплатаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВКМ_ВыплатаЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="36d3143e-abf3-4cd2-b8b6-26a671d69b69">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="34891c53-9aa8-4cf4-8719-e8611e3ae316">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="99abb7f6-cf8b-4440-840c-4f7d18640721">
+    <producedTypes>
+      <objectType typeId="52a58d4e-f00f-456e-825d-1d5b2c66a3d9" valueTypeId="5bf7e860-938e-47e0-8bc3-b7e566ba4392"/>
+      <rowType typeId="83654980-09b4-49fa-9615-916e800c4bf6" valueTypeId="14a5c06f-bb7e-4de5-9bde-5b53364e95d2"/>
+    </producedTypes>
+    <name>Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="7e5d932d-ffe8-4488-ae89-a16526d53696">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8fa3ec04-fe20-4228-b560-ac2998edddfa">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
