@@ -33,5 +33,6 @@
   <content>Role.ВКМ_ВводИнформацииПоЗаработнойПлате</content>
   <content>Role.ВКМ_РаботаСОтпусками</content>
   <content>Role.ВКМ_ИспользованиеБотов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
