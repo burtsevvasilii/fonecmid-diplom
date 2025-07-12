@@ -36,5 +36,6 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
