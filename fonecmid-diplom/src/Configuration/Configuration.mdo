@@ -629,6 +629,9 @@
   <roles>Role.ВКМ_ВводИнформацииПоЗаработнойПлате</roles>
   <roles>Role.ВКМ_РаботаСОтпусками</roles>
   <roles>Role.ВКМ_ИспользованиеБотов</roles>
+  <roles>Role.ВКМ_ОтчетПоВыработкеСпециалистов</roles>
+  <roles>Role.ВКМ_ОтчетыЗарплатаИОтпуска</roles>
+  <roles>Role.ВКМ_ОчетПоАнализуВыставленныхАктов</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>

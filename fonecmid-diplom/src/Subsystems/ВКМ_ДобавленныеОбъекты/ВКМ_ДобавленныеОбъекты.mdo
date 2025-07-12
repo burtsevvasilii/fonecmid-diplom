@@ -38,5 +38,8 @@
   <content>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Role.ВКМ_ОтчетПоВыработкеСпециалистов</content>
+  <content>Role.ВКМ_ОтчетыЗарплатаИОтпуска</content>
+  <content>Role.ВКМ_ОчетПоАнализуВыставленныхАктов</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
