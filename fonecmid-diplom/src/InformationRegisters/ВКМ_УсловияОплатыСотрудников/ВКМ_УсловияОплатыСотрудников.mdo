@@ -49,6 +49,7 @@
         <length>3</length>
       </stringQualifiers>
     </type>
+    <mask>999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>

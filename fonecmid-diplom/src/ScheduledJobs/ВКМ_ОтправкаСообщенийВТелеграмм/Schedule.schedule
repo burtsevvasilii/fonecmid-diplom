@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schedule:Schedule xmlns:schedule="http://g5.1c.ru/v8/dt/schedule" beginDate="2025-07-03" endDate="0001-01-01" daysRepeatPeriod="60" beginTime="08:00:00" endTime="17:00:00" completionTime="00:00:00" weeksPeriod="1">
-  <weekDays>Sun</weekDays>
+<schedule:Schedule xmlns:schedule="http://g5.1c.ru/v8/dt/schedule" beginDate="2025-01-28" endDate="0001-01-01" daysRepeatPeriod="1" beginTime="08:00:00" endTime="17:00:00" completionTime="00:00:00" repeatPeriodInDay="60" weeksPeriod="1">
   <weekDays>Mon</weekDays>
   <weekDays>Tue</weekDays>
   <weekDays>Wed</weekDays>
   <weekDays>Thu</weekDays>
   <weekDays>Fri</weekDays>
-  <weekDays>Sat</weekDays>
   <months>Jan</months>
   <months>Feb</months>
   <months>Mar</months>

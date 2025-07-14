@@ -70,6 +70,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РеализацияТоваровУслуг.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ВКМ_ВыставленныеКОплатеРаботы</registerRecords>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -130,8 +131,16 @@
     </choiceParameterLinks>
     <choiceParameters>
       <name>Отбор.ВидДоговора</name>
-      <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбонентскоеОбслуживание</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
+        </values>
+        <values xsi:type="core:UndefinedValue"/>
+        <values xsi:type="core:UndefinedValue"/>
+        <values xsi:type="core:UndefinedValue"/>
       </value>
     </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -167,6 +176,7 @@
     </synonym>
     <type>
       <types>DocumentRef.ЗаказПокупателя</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -414,7 +424,7 @@
     <name>ПФ_MXL_АктОбОказанныхУслугах</name>
     <synonym>
       <key>ru</key>
-      <value>Акт об оказанных услугах</value>
+      <value>MXL акт об оказанных услугах</value>
     </synonym>
   </templates>
 </mdclass:Document>

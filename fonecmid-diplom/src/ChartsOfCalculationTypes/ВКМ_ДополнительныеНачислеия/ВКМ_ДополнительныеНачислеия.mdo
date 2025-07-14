@@ -16,7 +16,7 @@
   <name>ВКМ_ДополнительныеНачислеия</name>
   <synonym>
     <key>ru</key>
-    <value>Дополнительные начисления</value>
+    <value>Дополнительные начислеия</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>ChartOfCalculationTypes.ВКМ_ДополнительныеНачислеия.StandardAttribute.Code</inputByString>
@@ -32,8 +32,10 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
-    <items id="d76a1a70-8871-43ab-9350-b56d4d79c5c2">
+    <items id="946ad8ea-50dd-4665-b11e-4d452d61111a">
       <name>Премия</name>
       <description>Премия</description>
       <code xsi:type="core:StringValue">

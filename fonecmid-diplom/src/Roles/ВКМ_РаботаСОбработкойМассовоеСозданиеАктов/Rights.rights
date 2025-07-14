@@ -18,10 +18,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Posting</name>
 			<value>true</value>
 		</right>
@@ -62,10 +58,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
@@ -78,36 +70,12 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_ДобавленныеОбъекты.Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
+		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -134,14 +102,6 @@
 	<object>
 		<name>Configuration.УправлениеITФирмой</name>
 		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
@@ -163,10 +123,6 @@
 		</right>
 		<right>
 			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
 	</object>

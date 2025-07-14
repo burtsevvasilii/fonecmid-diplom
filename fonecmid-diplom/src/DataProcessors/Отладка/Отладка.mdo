@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a8fb0c-cd24-479a-a47c-e13be3af2112">
+  <producedTypes>
+    <objectType typeId="701ac6e3-5b58-458a-8389-9a59db5bb994" valueTypeId="5289448e-db6e-4109-8867-0550794492db"/>
+    <managerType typeId="99f845bd-9b0b-4114-83f6-4b2d24998390" valueTypeId="c28f04dc-4775-41d5-8178-3ec7267302a7"/>
+  </producedTypes>
+  <name>Отладка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отладка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Отладка.Form.Форма</defaultForm>
+  <forms uuid="43e05c28-0d45-45e4-a1d1-42a797188e9b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

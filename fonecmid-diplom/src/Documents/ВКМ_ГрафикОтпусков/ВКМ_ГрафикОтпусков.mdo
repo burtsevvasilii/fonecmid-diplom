@@ -33,7 +33,6 @@
       <key>ru</key>
       <value>Год</value>
     </synonym>
-    <comment>Год формирования отпусков</comment>
     <type>
       <types>Date</types>
       <dateQualifiers>

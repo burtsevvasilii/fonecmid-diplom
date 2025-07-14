@@ -68,6 +68,4 @@
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ПраваРолей</content>
   <content>Report.ДлительностьОтложенногоОбновления</content>
-  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
-  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
 </mdclass:Subsystem>

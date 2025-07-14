@@ -3,9 +3,8 @@
   <name>ВКМ_Телеграм</name>
   <synonym>
     <key>ru</key>
-    <value>Телеграм</value>
+    <value>ВКМ телеграм</value>
   </synonym>
-  <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

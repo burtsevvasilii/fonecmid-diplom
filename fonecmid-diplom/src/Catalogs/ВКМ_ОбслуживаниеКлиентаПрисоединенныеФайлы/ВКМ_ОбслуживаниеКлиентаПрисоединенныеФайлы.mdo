@@ -104,8 +104,12 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Присоединенные файлы (Обслуживание клиентов)</value>
+    <value>Присоединенный файл (Обслуживание клиентов)</value>
   </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Присоединенные файлы (Обслуживания клиентов)</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>
@@ -149,7 +153,7 @@
       <value>Размещение</value>
     </synonym>
     <type>
-      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.ВКМ_ОбслуживаниеКлиента</types>
     </type>
     <toolTip>
       <key>ru</key>

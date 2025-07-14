@@ -33,7 +33,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <predefined>
-    <items id="02a7c6b1-8c9f-4bba-81d3-f1d6a386e9b7">
+    <items id="6aabbe9d-e40b-4374-89e1-93f288a284da">
       <name>НДФЛ</name>
       <description>НДФЛ</description>
       <code xsi:type="core:StringValue">
