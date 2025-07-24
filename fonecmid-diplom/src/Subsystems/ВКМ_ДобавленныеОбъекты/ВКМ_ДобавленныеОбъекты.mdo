@@ -46,5 +46,6 @@
   <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>CommandGroup.ВКМ_Справочники</content>
   <content>CommandGroup.ВКМ_Документы</content>
+  <content>InformationRegister.ВКМ_ГрафикиОтпусков</content>
   <subsystems>ВКМ_ОбслуживаниеКлиентов</subsystems>
 </mdclass:Subsystem>
